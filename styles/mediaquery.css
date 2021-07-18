@@ -1,0 +1,140 @@
+@media screen and (max-width: 700px) and (min-width: 320px) {
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 8em;
+    }
+
+    .cabecalhoPrincipal-nav-link {
+        font-size: 0.7em;
+        padding: 8px 10px;
+    }
+
+    .div-1 {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 35em;
+    }
+    
+    .texto-inicial {
+        width: 90%;
+        height: auto;
+        margin: 0 0 20px 0;
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .div-img1 {
+        width: 90%;
+        height: 200px;
+        margin: 0;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    .img1 {
+        width: auto;
+        height: 200px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .div-h2 {
+        margin: 3% 10%;
+        font-size: 0.8em;
+    }
+
+
+    form {
+        margin: 0 auto;
+        width: 230px;
+    }
+
+    label {
+        display: inline-block;
+        width: 80px;
+        text-align: center;
+        font-size: 0.9em;
+    }
+    
+    input {
+        font: 0.9em sans-serif;
+        height: 25px;
+        width: 190px;
+        text-align: center;
+    }
+
+    button {
+        margin-left: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        background-color: #849b6f;
+        width: 190px;
+    }
+
+    .formButton {
+        padding-left: 0px;
+    }
+    
+    footer .natury-social {
+        font-size: 0.9em;
+    }
+
+    .final {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15%;
+        margin: 0 0 3% 0;
+    }
+
+    .creditos {
+        font-size: 0.9em;
+        border-top: 1px solid grey;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    
+    .creditos a img {
+        text-align: center;
+        margin: 0 10px;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 875px) {
+    .texto-inicial {
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 20px;
+        text-align: center;
+        color: white;
+        font-size: 1.1em;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .div-img1 {
+        width: 90%;
+        height: 195px;
+        margin: 0;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+
+    .img1 {
+        width: auto;
+        height: 200px;
+        margin: 0;
+        text-align: center;
+    }
+
+    }
